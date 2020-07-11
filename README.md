@@ -11,6 +11,16 @@ npm run dev
 npm run build
 ```
 
+## Functionality and Unit Test ScreenShots
+
+<img src="screenshots/usage1.png" width="550" height="350">
+<img src="screenshots/usage2.png" width="550" height="350">
+<img src="screenshots/usage3.png" width="550" height="350">
+<img src="screenshots/schools1.png" width="550" height="350">
+<img src="screenshots/schools2.png" width="550" height="350">
+# Unit test results
+<img src="screenshots/unittest.png" width="550" height="350">
+
 ![Bridge International Academies Logo](Banner%20Logo%20280x60.png)
 
 # Front-End Developer Technical Test
