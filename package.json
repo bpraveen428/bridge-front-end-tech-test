@@ -1,0 +1,50 @@
+{
+  "name": "Battery-Usage-Insights-Unit-Test",
+  "description": "Schools battery usage reports",
+  "version": "1.0.0",
+  "author": "Praveen B",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
+    "watch": "cross-env NODE_ENV=development webpack --watch --progress --hide-modules",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
+    "test": "jest"
+  },
+  "dependencies": {
+    "chart.js": "^2.9.3",
+    "jsdom": "^16.2.2",
+    "jsdom-global": "^3.0.2",
+    "lodash": "^4.17.15",
+    "npm-install-missing": "^0.1.4",
+    "vue": "^2.6.11",
+    "vue-chartjs": "^3.5.0",
+    "vue-cli": "^2.9.6",
+    "vue-localstorage": "^0.6.2"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "@vue/test-utils": "^1.0.3",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^26.1.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.4",
+    "jest": "^26.1.0",
+    "jest-serializer-vue": "^2.0.2",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "vue-jest": "^3.0.6",
+    "vue-loader": "^13.0.5",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
+  }
+}
